@@ -143,6 +143,16 @@ li {
   color: #88dee6;
 }
 
+.page-marquee h1 {
+  color: rgb(60, 255, 0);
+}
+
+.page-marquee h3 {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
 .icons {
   color: #000;
   margin-top: -20px;
@@ -155,7 +165,8 @@ li {
   position: relative;
 }
 
-.page-marquee__photo-shadow {
+.page-marquee__photo:after {
+  content: '';
   height: 533px;
   width: 542px;
   background-color: black;
@@ -187,13 +198,12 @@ li {
   color: #fff;
 }
 
-.contact-info {
+.content-section__contact ul {
   width: 50%;
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-
 
 
 
