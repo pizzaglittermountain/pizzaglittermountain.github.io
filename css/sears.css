@@ -1,0 +1,158 @@
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Global Selectors
+  ========================================
+*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/*
+  ========================================
+  Nav
+  ========================================
+*/
+
+.global-nav {
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.global-nav ul {
+  float: right;
+}
+
+.global-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #fff;
+  margin: 0;
+  float: left;
+  line-height: 2em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page-content {
+  position: relative;
+}
+
+/*
+  ========================================
+  Marquee and Page
+  ========================================
+*/
+
+.cat-marquee-header {
+  background-image: url(../img/kittens.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+
+}
+
+.cat-marquee-content {
+  float: left;
+  max-width: 60%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+}
+
+.subhead {
+  margin-top: 90px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.subhead h1 {
+  font-weight: 400;
+  color: pink;
+}
+
+.kitten-form {
+  float: right;
+  max-width: 40%;
+  position: absolute;
+  top: 140px;
+  right: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 50px 50px 50px;
+  box-shadow: 1px 1px 7px #ccc;
+}
+
+.kitten-form input[type="text"] {
+  display: block;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.kitten-form select {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.kitten-form button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: pink;
+  border: none;
+  padding: 20px;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.kitten-form button:hover {
+  background-color: blue;
+}
+
+.kitten-buckets li {
+  float: left;
+  width: 33.3333%;
+}
+
+.kitten-buckets {
+  margin-top: 100px;
+  text-align: center;
+}

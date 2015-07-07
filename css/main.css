@@ -121,7 +121,7 @@ li {
   list-style: none;
   font-size: 24px;
   line-height: 2em;
-  color: #fff !important;
+  color: #fff;
 }
 
 .text-center {
