@@ -1,0 +1,243 @@
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Global Styles
+  ========================================
+*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.centered {
+  margin: 0 auto;
+}
+/*
+  ========================================
+  Marquee
+  ========================================
+*/
+
+.marquee-large {
+  position: relative;
+  padding: 200px 0;
+}
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 52px;
+  color: #fff;
+  background-color: #FB0045;
+  max-width: 50%;
+  border: 7px solid #fff;
+}
+
+.marquee-background {
+  background-image: url(../img/marqueebackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  background-position-y: -410px;*/
+}
+
+.section-background {
+  background-color: #F8F8F8;
+}
+
+.section-background h2 {
+  margin-top: 0;
+}
+
+.section-background section {
+  background-color: #fff;
+  max-width: 75%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  z-index: 999;
+  position: relative;
+  top: -40px;
+}
+
+.section-background ul {
+  padding-left: 0;
+}
+
+/*
+  ========================================
+  Floated Section
+  ========================================
+*/
+
+.high-sunlight img {
+  display: block;
+}
+
+.float-blocks li {
+  float: left;
+  margin-right: 31px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #EFEFEF;
+}
+
+.float-blocks p {
+  margin-left: 20px;
+  float: left;
+}
+
+.icon-sunshine {
+  background-image: url(../img/sunshine.png);
+  width: 27px;
+  height: 28px;
+  float: right;
+  margin: 16px 10px 0 20px;
+}
+
+/*
+  ========================================
+  Display
+  ========================================
+*/
+
+.inline-blocks li {
+  display: inline-block;
+  max-width: 30%;
+  margin-right: 31px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #EFEFEF;
+  box-sizing: border-box;
+}
+
+.inline-blocks p {
+  display: inline-block;
+  padding-left: 20px;
+  width: 80%;
+}
+
+.mid-sunlight img {
+  width: 100%;
+}
+
+.icon-partlycloud {
+  background-image: url(../img/partlycloudy.png);
+  width: 32px;
+  height: 31px;
+  display: inline-block;
+}
+
+
+/*
+  ========================================
+  Position
+  ========================================
+*/
+
+.low-sunlight {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+}
+
+.position-blocks {
+  position: absolute;
+  left: 70px;
+  top:90px;
+}
+
+.position-blocks ul {
+  background-color: #fff;
+  border: 1px solid #EFEFEF;
+}
+
+/*
+  ========================================
+  Media Queries
+  ========================================
+*/
+
+@media (max-width: 600px) {
+  .inline-blocks li {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 786px) {
+  .logo {
+    max-width: 100%;
+  }
+
+  .marquee-background {
+    background-position-y: -40px;
+  }
+
+  .section-background {
+    background-color: #F05D85;
+  }
+
+  .high-sunlight {
+    width: 440px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    font-size: 72px;
+    max-width: 75%;
+  }
+
+  .marquee-background {
+    background-position-y: 0px;
+  }
+
+  .section-background {
+    background-color: #DCEF3B;
+  }
+
+  .section-background section {
+    max-width: 50%;
+  }
+
+  li {
+    width: 100%
+  }
+
+  .high-sunlight img {
+    width: 100%;
+  }
+
+  .high-sunlight {
+    width: 100%;
+  }
+}
+
