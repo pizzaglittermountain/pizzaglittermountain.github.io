@@ -45,8 +45,8 @@ li {
 */
 
 .marquee-large {
-  height: 600px;
   position: relative;
+  padding: 200px 0;
 }
 
 .logo {
