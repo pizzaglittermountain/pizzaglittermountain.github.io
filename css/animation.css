@@ -18,7 +18,7 @@ h1 {
 
 @keyframes opacity {
   0% { opacity: 0; }
-  50% { opacity: 1; }
+  100% { opacity: 1; }
 }
 
 .h1-appear {
@@ -31,7 +31,7 @@ h1 {
   position: relative;
   bottom: 0px;
   opacity: 0;
-  animation: appear 1s .5s, opacity 8s .5s;
+  animation: appear 1s .5s, opacity 3s .5s forwards;
 }
 
 .wrapper {
