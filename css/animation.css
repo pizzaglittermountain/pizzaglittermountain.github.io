@@ -21,7 +21,6 @@ h1 {
   padding: 180px;
 }
 
-
 .square {
   float: left;
   height: 25px;
@@ -41,8 +40,8 @@ h1 {
 }
 
 @keyframes color {
-  from { background-color: black; }
-  to { background-color: red; }
+  0% { background-color: black; }
+  50% { background-color: red; }
 }
 
 .square-orange {
@@ -51,8 +50,8 @@ h1 {
 }
 
 @keyframes orange {
-  from { background-color: black; }
-  to { background-color: orange; }
+  0% { background-color: black; }
+  50% { background-color: orange; }
 }
 
 .square-yellow {
@@ -61,8 +60,8 @@ h1 {
 }
 
 @keyframes yellow {
-  from { background-color: black; }
-  to { background-color: yellow; }
+  0% { background-color: black; }
+  50% { background-color: yellow; }
 }
 
 .square-green {
@@ -71,8 +70,8 @@ h1 {
 }
 
 @keyframes green {
-  from { background-color: black; }
-  to { background-color: green; }
+  0% { background-color: black; }
+  50% { background-color: green; }
 }
 
 .square-blue {
@@ -81,8 +80,8 @@ h1 {
 }
 
 @keyframes blue {
-  from { background-color: black; }
-  to { background-color: blue; }
+  0% { background-color: black; }
+  50% { background-color: blue; }
 }
 
 .square-purple {
@@ -91,8 +90,8 @@ h1 {
 }
 
 @keyframes purple {
-  from { background-color: black; }
-  to { background-color: purple; }
+  0% { background-color: black; }
+  50% { background-color: purple; }
 }
 
 .row {
