@@ -11,6 +11,29 @@ h1 {
   margin:50px auto;
 }
 
+@keyframes appear {
+  from { bottom: 90px; }
+  to { bottom: 0px; }
+}
+
+@keyframes opacity {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.h1-appear {
+  position: relative;
+  bottom: 0px;
+  animation: appear 1s, opacity 3s;
+}
+
+.wrapper-appear {
+  position: relative;
+  bottom: 0px;
+  opacity: 0;
+  animation: appear 1s .5s, opacity 8s .5s;
+}
+
 .wrapper {
   border: 1px solid #BABABA;
   height: 540px;
