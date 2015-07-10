@@ -18,7 +18,9 @@ h1 {
   background-color: white;
   margin: 0 auto;
   box-sizing: border-box;
+  padding: 180px;
 }
+
 
 .square {
   float: left;
@@ -28,14 +30,69 @@ h1 {
   background-color: black;
 }
 
-.square {
-  animation: rotate 5s linear;
+.square-red {
+  animation: rotate 5s linear, color 5s ease;
   animation-iteration-count: infinite;
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); background-color: black; }
-  to { transform: rotate(360deg); background-color: red; }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes color {
+  from { background-color: black; }
+  to { background-color: red; }
+}
+
+.square-orange {
+  animation: rotate 5s linear, orange 5s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes orange {
+  from { background-color: black; }
+  to { background-color: orange; }
+}
+
+.square-yellow {
+  animation: rotate 5s linear, yellow 5s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes yellow {
+  from { background-color: black; }
+  to { background-color: yellow; }
+}
+
+.square-green {
+  animation: rotate 5s linear, green 5s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes green {
+  from { background-color: black; }
+  to { background-color: green; }
+}
+
+.square-blue {
+  animation: rotate 5s linear, blue 5s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blue {
+  from { background-color: black; }
+  to { background-color: blue; }
+}
+
+.square-purple {
+  animation: rotate 5s linear, purple 5s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes purple {
+  from { background-color: black; }
+  to { background-color: purple; }
 }
 
 .row {
