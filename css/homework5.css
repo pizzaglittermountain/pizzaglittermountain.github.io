@@ -1,0 +1,142 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../img/geometry2.png);
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header-area {
+  text-align: center;
+  color: #29D4D2;
+  padding-top: 30px;
+  font-size: 50px;
+  margin-top: 0;
+  /*letter-spacing: 10px;*/
+}
+
+.header-area h1 {
+  margin: 0 0;
+}
+
+.section-header {
+  color: #fff;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.section-header span {
+  padding: 10px;
+  background-color: rgb(76, 0, 255);
+}
+
+.box {
+  width: 24%;
+/*  background-color: #fff;
+  border: 1px solid #ccc;*/
+  display: inline-block;
+  margin: 30px 0px 30px 30px;
+  box-sizing: border-box;
+}
+
+.tv-block {
+  display: inline-block;
+  width: 22%;
+  margin-right: 2%;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tv-block p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+
+.pink-line {
+  width: 50px;
+  height: 5px;
+  background-color: pink;
+  margin: 0 auto;
+
+}
+
+.tv-image {
+  width: 100%;
+}
+
+.rugrats-transition {
+  transition-property: bottom;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  position: relative;
+  bottom: 0;
+}
+
+.rugrats-transition:hover {
+  bottom: 300px;
+}
+
+.ren-stimpy-transition {
+  transition-property: opacity;
+  transition-duration: 2s;
+  opacity: 1;
+}
+
+.ren-stimpy-transition:hover {
+  opacity: 0;
+}
+
+.doug-transition {
+  transition-property: right;
+  transition-duration: 1s;
+  position: relative;
+  right: 0;
+}
+
+.doug-transition:hover {
+  right: 300px;
+}
+
+.pink-line-transition .pink-line {
+  transition-property: width, background-color;
+  transition-duration: 2s, 2s;
+}
+
+.pink-line-transition .pink-line:hover {
+  width: 100%;
+  background-color: red;
+}
+
+.pete {
+  transition-property: opacity, background-color;
+  transition-duration: 1s, 1s;
+  transition-timing-function: ease;
+  height: 100%;
+  width: 100%;
+  background-color: orange;
+  position: absolute;
+  bottom: 22px;
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+.pete:hover {
+  opacity: 0.3;
+}
+
+.clarissa p {
+  trasition-property: color, background-color, padding;
+  transition-duration: 500ms, 500ms, 500ms;
+}
+
+.clarissa:hover p {
+  padding: 10px;
+  background-color: blue;
+  color: pink;
+}
+
